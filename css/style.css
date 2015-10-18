@@ -1,0 +1,118 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/*Common Styles*/
+
+body {
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+a {
+  color: #FF9933;
+}
+
+/*Header Styles*/
+
+.masthead-heading,
+.masthead-intro, .footer {
+  text-align: center;
+}
+
+.masthead {
+  padding: 6em 0;
+  background-image: url('http://www.thomasbrewer.net/chair.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: solid 1em #000000;
+}
+
+.masthead-intro {
+  margin-bottom: 0.1em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+  color: #ffffff;
+}
+
+.masthead-heading {
+  margin-top: -0.2em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 5em;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  font-weight: bold;
+  text-shadow: 3px 3px #333333;
+  text-transform: uppercase;
+}
+
+/*Content Styles*/
+
+.introduction, .location, .questions {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  padding-left:1em;
+  padding-right:1em;
+}
+
+.introduction p, .location p, .questions p {
+  font-weight: 300;
+  letter-spacing:0.05em;
+}
+
+/*Footer Styles*/
+
+.social > li {
+  display: inline;
+}
+
+footer {
+  background-color: #333333;
+  color: white;
+  margin-top: 2rem;
+  padding: 2rem;
+  line-height: 1.3rem;
+  letter-spacing: .1rem;
+}
+
+/*Responsive Styles*/
+@media only screen and (max-width: 500px) {
+    
+  .masthead {
+      padding: 3em 0;
+    }
+  .masthead-heading {
+      font-size: 3em;
+    }
+  footer {
+    margin-top: 1rem;
+    padding: 1rem;
+    }
+}
+
